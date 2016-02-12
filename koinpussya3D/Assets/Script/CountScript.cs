@@ -9,8 +9,8 @@ public class CountScript : MonoBehaviour {
 	private Text uScore;
 
 	void Start() {
-		uScore = GameObject.FindGameObjectWithTag("Score").GetComponent<Text>();
-		uScore.text = "Score: " + score.ToString();
+		uScore = GameObject.FindGameObjectWithTag ("Score").GetComponent<Text> ();
+		uScore.text = "Score: " + score.ToString ();
 	}
 
 	void CountUp() {

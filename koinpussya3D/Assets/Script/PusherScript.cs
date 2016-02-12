@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class pusherScript : MonoBehaviour {
+public class PusherScript : MonoBehaviour {
 	private Vector3 origin;
 
 	void Awake () {

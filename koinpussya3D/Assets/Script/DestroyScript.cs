@@ -3,7 +3,7 @@ using System.Collections;
 
 public class DestroyScript : MonoBehaviour {
 
-	void OnTriggerEnter(Color col) {
+	void OnTriggerEnter(Collider col) {
 		Destroy (col.gameObject);
 	}
 }
