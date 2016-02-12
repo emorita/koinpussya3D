@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using System.Collections;
 
 
-public class CountScript : MonoBehaviour{
+public class CountScript : MonoBehaviour {
 
 	int score = 30; //初期値を30に変更
 	private Text uScore;

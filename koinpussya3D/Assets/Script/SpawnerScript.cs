@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SpawnerScript : MonoBehaviour
-{
+public class SpawnerScript : MonoBehaviour {
+	
 	public GameObject coinPrefab;
 
 	void Update()
